@@ -37,6 +37,18 @@ a:hover { color: var(--accent); text-decoration: underline; }
 
 img { max-width: 100%; display: block; }
 
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .profile-photo { width: 90px; height: 90px; }
+}
+
 /* --- Layout --------------------------------------- */
 .site-wrapper { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
 
